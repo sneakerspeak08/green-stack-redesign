@@ -51,10 +51,10 @@ const ContactSection = () => {
               <p className="text-sm font-medium text-tychem-700">Get in Touch</p>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-              Ready to transform your chemical processes?
+              Ready to sell your surplus chemicals?
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Contact our team of experts to discuss how our innovative chemical solutions can help your business achieve greater efficiency and sustainability.
+              Contact our team of experts to discuss how we can help you dispose of your surplus chemicals in an environmentally responsible way.
             </p>
             
             <div className="space-y-6 mb-8">
@@ -66,7 +66,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Phone</h3>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
+                  <p className="text-gray-600">Please contact via email</p>
                 </div>
               </div>
               
@@ -91,7 +91,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-1">Address</h3>
-                  <p className="text-gray-600">123 Chemical Drive, San Francisco, CA 94107</p>
+                  <p className="text-gray-600">Wisconsin, USA</p>
                 </div>
               </div>
             </div>
