@@ -9,10 +9,10 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { value: 20, label: "Years of Experience", suffix: "+" },
+  { value: 22, label: "Years of Experience", suffix: "+" },
   { value: 1000, label: "Successful Transactions", suffix: "+" },
   { value: 50, label: "Countries Served", suffix: "+" },
-  { value: 100, label: "Types of Chemicals Handled", suffix: "+" },
+  { value: 250, label: "Types of Chemicals Handled", suffix: "+" },
 ];
 
 const Stats = () => {
@@ -81,11 +81,11 @@ const Stats = () => {
             >
               <div className="flex flex-col items-center text-center">
                 <div className="flex items-baseline mb-2">
-                  <span className="text-4xl md:text-5xl font-bold text-tychem-600">
+                  <span className="text-4xl md:text-5xl font-bold text-green-600">
                     {counts[index]}
                   </span>
                   {stat.suffix && (
-                    <span className="text-xl md:text-2xl font-medium text-tychem-600 ml-1">
+                    <span className="text-xl md:text-2xl font-medium text-green-600 ml-1">
                       {stat.suffix}
                     </span>
                   )}

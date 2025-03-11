@@ -101,19 +101,24 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-lg font-semibold mb-6">Contact Us</h3>
             <p className="text-gray-400 mb-4">
-              Contact us to discuss your surplus chemicals and how we can help you dispose of them responsibly.
+              Wisconsin, USA
+            </p>
+            <p className="text-gray-400 mb-4">
+              <a href="mailto:info@tychem.net" className="hover:text-white transition-colors duration-300">
+                info@tychem.net
+              </a>
             </p>
             <form className="space-y-4">
               <div className="flex flex-col sm:flex-row gap-2">
                 <input
                   type="email"
                   placeholder="Your email"
-                  className="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-tychem-500 focus:border-transparent flex-grow"
+                  className="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent flex-grow"
                 />
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-4 py-2 bg-tychem-500 text-white rounded-lg whitespace-nowrap"
+                  className="px-4 py-2 bg-green-600 text-white rounded-lg whitespace-nowrap"
                 >
                   Subscribe
                 </motion.button>

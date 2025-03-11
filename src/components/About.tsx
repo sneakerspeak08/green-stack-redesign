@@ -44,8 +44,8 @@ const About = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Quality Assurance</h3>
-                  <p className="text-gray-600">Certificates of Analysis provided</p>
+                  <h3 className="text-lg font-semibold mb-1">Environmental Responsibility</h3>
+                  <p className="text-gray-600">Helping reduce chemical waste worldwide</p>
                 </div>
               </div>
             </div>
