@@ -21,10 +21,10 @@ const About = () => {
               <p className="text-sm font-medium text-tychem-700">About Tychem</p>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-              We develop advanced chemical solutions for industries worldwide
+              Innovative chemical solutions for modern industry challenges
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Tychem is a company that develops smart chemical solutions for manufacturers in various industries. Our innovative products help businesses improve efficiency, reduce costs, and achieve sustainable operations.
+              For over 45 years, Tychem has developed advanced chemical solutions for manufacturers in various industries. Our innovative products help businesses optimize processes, enhance product performance, and achieve sustainable operations.
             </p>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
@@ -35,8 +35,8 @@ const About = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">High Quality Standards</h3>
-                  <p className="text-gray-600">ISO certified manufacturing processes ensure product consistency</p>
+                  <h3 className="text-lg font-semibold mb-1">Quality Commitment</h3>
+                  <p className="text-gray-600">ISO 9001 certified manufacturing processes</p>
                 </div>
               </div>
               
@@ -47,8 +47,8 @@ const About = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Research Focused</h3>
-                  <p className="text-gray-600">Continuous innovation through extensive R&D investments</p>
+                  <h3 className="text-lg font-semibold mb-1">Innovative R&D</h3>
+                  <p className="text-gray-600">Continuous development of new formulations</p>
                 </div>
               </div>
               
@@ -59,8 +59,8 @@ const About = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Sustainable Solutions</h3>
-                  <p className="text-gray-600">Eco-friendly formulations with reduced environmental impact</p>
+                  <h3 className="text-lg font-semibold mb-1">Environmental Focus</h3>
+                  <p className="text-gray-600">Eco-friendly solutions with reduced impact</p>
                 </div>
               </div>
               
@@ -71,8 +71,8 @@ const About = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-1">Global Presence</h3>
-                  <p className="text-gray-600">Serving customers across multiple continents with local support</p>
+                  <h3 className="text-lg font-semibold mb-1">Technical Expertise</h3>
+                  <p className="text-gray-600">Industry specialists with practical experience</p>
                 </div>
               </div>
             </div>
@@ -118,8 +118,8 @@ const About = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800">Innovation at core</h3>
-                  <p className="text-sm text-gray-500">State-of-the-art research facilities</p>
+                  <h3 className="font-semibold text-gray-800">Advanced Research</h3>
+                  <p className="text-sm text-gray-500">State-of-the-art laboratory facilities</p>
                 </div>
               </div>
             </motion.div>

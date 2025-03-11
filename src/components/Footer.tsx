@@ -17,7 +17,7 @@ const Footer = () => {
               <span className="text-xs align-top text-white">®</span>
             </div>
             <p className="text-gray-400 max-w-xs">
-              Innovative chemical solutions for a sustainable future. Providing high-quality products for industries worldwide.
+              Industry-leading chemical solutions for manufacturers worldwide. Delivering innovative products for over four decades.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
@@ -44,25 +44,25 @@ const Footer = () => {
               <li>
                 <a href="#" className="hover:text-white transition-colors duration-300 flex items-center">
                   <ChevronRight className="h-4 w-4 mr-1" />
+                  Industrial Cleaners
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors duration-300 flex items-center">
+                  <ChevronRight className="h-4 w-4 mr-1" />
+                  Adhesives & Sealants
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition-colors duration-300 flex items-center">
+                  <ChevronRight className="h-4 w-4 mr-1" />
                   Surface Treatments
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors duration-300 flex items-center">
                   <ChevronRight className="h-4 w-4 mr-1" />
-                  Adhesives and Sealants
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" />
-                  Cleaning Agents
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors duration-300 flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" />
-                  Custom Solutions
+                  Custom Formulations
                 </a>
               </li>
             </ul>
@@ -80,7 +80,7 @@ const Footer = () => {
               <li>
                 <a href="#" className="hover:text-white transition-colors duration-300 flex items-center">
                   <ChevronRight className="h-4 w-4 mr-1" />
-                  Technology
+                  Research & Technology
                 </a>
               </li>
               <li>
@@ -99,9 +99,9 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-white text-lg font-semibold mb-6">Subscribe</h3>
+            <h3 className="text-white text-lg font-semibold mb-6">Contact Us</h3>
             <p className="text-gray-400 mb-4">
-              Subscribe to our newsletter to get the latest updates and news
+              Subscribe to our newsletter to receive product updates and industry news
             </p>
             <form className="space-y-4">
               <div className="flex flex-col sm:flex-row gap-2">
@@ -124,7 +124,7 @@ const Footer = () => {
         
         <div className="mt-16 pt-8 border-t border-gray-800 text-center sm:text-left sm:flex sm:justify-between sm:items-center">
           <p className="text-gray-500">
-            © {currentYear} Tychem. All rights reserved.
+            © {currentYear} Tychem Chemical Corporation. All rights reserved.
           </p>
           <div className="mt-4 sm:mt-0">
             <ul className="flex flex-wrap justify-center sm:justify-end space-x-6">

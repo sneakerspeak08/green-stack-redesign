@@ -42,21 +42,21 @@ const Hero = () => {
       
       <div className="relative z-10 flex flex-col justify-center h-full container mx-auto px-4 md:px-6">
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: l0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="max-w-4xl"
         >
           <div className="inline-block mb-4 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/10">
             <p className="text-sm md:text-base text-white">
-              Increase your chemical manufacturing efficiency by 1000%
+              Industry-Leading Chemical Formulations
             </p>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Chemical solutions <br /> for a sustainable future
+            Advanced Chemical Solutions <br /> for Complex Industrial Challenges
           </h1>
           <p className="text-xl md:text-2xl text-white/80 max-w-2xl mb-8">
-            Advanced chemical products and technologies delivering exceptional performance
+            Tychem delivers innovative chemical products that maximize performance and efficiency
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <motion.a
@@ -65,7 +65,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-tychem-500 text-white rounded-lg font-medium text-center transition-all duration-300 shadow-lg shadow-tychem-500/20"
             >
-              Explore our products
+              Our Products
             </motion.a>
             <motion.a
               href="#contact"
@@ -73,7 +73,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 bg-white/10 backdrop-blur-md text-white border border-white/20 rounded-lg font-medium text-center transition-all duration-300"
             >
-              Contact us
+              Contact Us
             </motion.a>
           </div>
         </motion.div>

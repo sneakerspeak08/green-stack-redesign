@@ -14,42 +14,42 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: "TyCoat Pro",
-    category: "Surface Treatments",
-    description: "Advanced coating solution for industrial surfaces providing superior protection against corrosion, chemicals, and abrasion.",
+    name: "TyClean Pro",
+    category: "Industrial Cleaners",
+    description: "Advanced industrial cleaning solutions with powerful degreasing properties for machinery and equipment maintenance.",
     features: [
-      "High resistance to corrosive chemicals",
-      "Extended protection lifespan",
-      "Easy application process",
-      "Environmentally friendly formula"
+      "Removes stubborn contaminants and residues",
+      "Non-corrosive to equipment surfaces",
+      "Biodegradable formulation",
+      "Concentrated for cost-efficiency"
     ],
-    image: "public/lovable-uploads/ed475dda-d90d-49bf-8eaa-1568397bfdf7.png"
+    image: "public/lovable-uploads/07b90b5f-e9de-448c-b375-6ba53ef3aae5.png"
   },
   {
     id: 2,
     name: "TyBond Ultra",
-    category: "Adhesives",
-    description: "Industrial-grade adhesive system designed for maximum bonding strength in challenging environments.",
+    category: "Adhesives & Sealants",
+    description: "High-performance industrial adhesive systems designed for maximum bonding strength in challenging environments.",
     features: [
-      "Superior bonding strength",
-      "Resistant to extreme temperatures",
-      "Quick curing time",
+      "Exceptional bonding strength",
+      "Temperature and chemical resistance",
+      "Fast curing time",
       "Compatible with multiple substrates"
     ],
     image: "public/lovable-uploads/fb67403f-ed79-4090-9432-b6c60bcfadb7.png"
   },
   {
     id: 3,
-    name: "TyClear Solution",
-    category: "Cleaning Agents",
-    description: "Specialized cleaning solution formulated for industrial equipment maintenance with powerful degreasing properties.",
+    name: "TyCoat Pro",
+    category: "Surface Treatments",
+    description: "Specialized coating solutions providing superior protection against corrosion, chemicals, and extreme wear conditions.",
     features: [
-      "Removes stubborn contaminants",
-      "Bio-degradable ingredients",
-      "Non-corrosive to equipment",
-      "Concentrated formula for cost-efficiency"
+      "Extends equipment lifespan",
+      "Highly resistant to chemical exposure",
+      "Easy application process",
+      "Available in various application methods"
     ],
-    image: "public/lovable-uploads/07b90b5f-e9de-448c-b375-6ba53ef3aae5.png"
+    image: "public/lovable-uploads/ed475dda-d90d-49bf-8eaa-1568397bfdf7.png"
   }
 ];
 
@@ -72,7 +72,7 @@ const Products = () => {
             <p className="text-sm font-medium text-tychem-700">Our Products</p>
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-            Innovative Chemical Solutions for Modern Industries
+            Chemical Solutions for Every Industry
           </h2>
           <p className="text-lg text-gray-600">
             Discover our range of high-performance chemical products designed to meet the evolving needs of diverse industries.
@@ -201,9 +201,9 @@ const Products = () => {
               </div>
               
               <div className="mt-12 p-8 bg-gradient-to-br from-tychem-500/10 to-tychem-600/5 rounded-2xl border border-tychem-100">
-                <h3 className="text-xl font-bold mb-4">Custom Solutions</h3>
+                <h3 className="text-xl font-bold mb-4">Custom Formulations</h3>
                 <p className="text-gray-600 mb-6">
-                  Can't find what you're looking for? We specialize in developing custom chemical formulations tailored to your specific requirements.
+                  Don't see what you need? We specialize in developing custom chemical formulations tailored to your specific requirements and industry challenges.
                 </p>
                 <motion.a
                   href="#contact"
