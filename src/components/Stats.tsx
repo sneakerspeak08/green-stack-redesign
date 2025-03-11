@@ -9,10 +9,10 @@ interface Stat {
 }
 
 const stats: Stat[] = [
-  { value: 350, label: "Specialized chemical formulations", suffix: "+" },
-  { value: 45, label: "Years of industry experience", suffix: "" },
-  { value: 55, label: "Countries with Tychem products", suffix: "+" },
-  { value: 98, label: "Customer satisfaction rating", suffix: "%" },
+  { value: 20, label: "Years of Experience", suffix: "+" },
+  { value: 1000, label: "Successful Transactions", suffix: "+" },
+  { value: 50, label: "Countries Served", suffix: "+" },
+  { value: 100, label: "Types of Chemicals Handled", suffix: "+" },
 ];
 
 const Stats = () => {
